@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+body {
+}
+
+.back {
+  background-color: #fff;
+  padding: 0px;
+  height: 838px;
+  width: 400px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: 1px solid #e7e6eb;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img img {
+  width: 258px;
+  height: 258px;
+  margin: 40px 71px;
+}
+.img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.price h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 12px 40px;
+  line-height: 38px;
+  max-width: 74px;
+}
+.name h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 12px 0px 8px 40px;
+  max-width: 239px;
+}
+.description p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 40px 24px 40px;
+}
+.choose p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin: 24px 222px 16px 40px;
+}
+.color_select div {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 16px;
+  cursor: pointer;
+}
+.color_select {
+  display: flex;
+}
+.color_select :first-child{
+  margin-left: 40px;
+}
+#circle_first{
+  background-color: #EE4444;
+  border: 4px solid black;
+}
+#circle_second{
+  background-color: #3C81F6;
+}
+.card1 {
+  width: 320px;
+  height: 55px;
+  background-color: #FBBF23;
+  border-radius: 8px;
+  margin: 32px 40px 8px 40px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.card1 p{
+  font-size: 24px;
+  font-weight: 400;
+}
+.card2 {
+  width: 320px;
+  height: 55px;
+  background-color: #f3f2f7;
+  border: 1px solid #61A5FA;
+  border-radius: 8px;
+  margin: 16px 40px 8px 40px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.card2 p{
+  font-size: 24px;
+  font-weight: 400;
+}
+.also{
+  margin: 32px 265px 40px 40px;
+  width: 95px;
+  height: 24px; 
+}
+.also a{
+  font-size: 16px;
+  color:#61A5FA;
+  font-weight: 400;
+}
+
